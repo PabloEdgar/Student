@@ -1,0 +1,8 @@
+nome =str(input('Digite seu noma Completo:')).strip()
+print('Analisando seu nome...')
+print('Seu nome em maiúscula é {}'.format(nome.upper()))
+print('Seu nome em minúscula é {}'.format(nome.lower()))
+print('Seu nome ao todo tem {} letras'.format(len(nome) - nome.count(' ')))
+print('Seu Primerio nome tem {} letras'.format(nome.find(' ')))
+separa = nome.split()
+print('Seu primiero nome é {}'.format(separa[0]))
