@@ -8,6 +8,7 @@ print("""[ 0 ] PEDRA
 [ 1 ] PAPEL
 [ 2 ] TESOURA""")
 
+
 jogador = int(input("Qual é a sua jogada? \033[m"))
 print("\033[34mJO\033[m")
 sleep(1)
@@ -55,11 +56,16 @@ elif computador == 2:  # computador jogou tesoura
         print("\033[32mJOGADOR VENCE!\033[m")
 
 
+
     elif jogador == 1:
         print("\033[31mCOMPUTADOR VENCEU!\033[m")
 
     else:
         print("\033[31mJogada inválida\033[m")
+
+
+print("Fim de jogo")
+
 
 
 
